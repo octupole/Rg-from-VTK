@@ -23,7 +23,6 @@
 
 const int XX{0},YY{1},ZZ{2},DIM{3};
 
-
 int main(int, char *[])
 {
   // Create a grid
