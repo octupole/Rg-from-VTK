@@ -5,10 +5,10 @@ PROJECT(StructuredGrid)
 find_package(VTK REQUIRED)
 include(${VTK_USE_FILE})
 
-add_executable(StructuredGrid MACOSX_BUNDLE StructuredGrid.cpp)
+add_executable(RgfromVTK RgfromVTK.cpp)
 
 if(VTK_LIBRARIES)
-  target_link_libraries(StructuredGrid ${VTK_LIBRARIES})
+  target_link_libraries(RgfromVTK ${VTK_LIBRARIES})
 else()
-  target_link_libraries(StructuredGrid vtkHybrid vtkWidgets)
+  target_link_libraries(RgfromVTK vtkHybrid vtkWidgets)
 endif()
