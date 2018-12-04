@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
 				N++;
 			}
 	Rg/=norm;
-	cout << sqrt(Rg) << endl;
+	cout << "Rg = " <<sqrt(Rg) << endl;
   return EXIT_SUCCESS;
 }
 
