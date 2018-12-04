@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 
 	float c0[DIM],norm{0};
 	int Size=dims[XX]*dims[YY]*dims[ZZ];
-	Density->SetNumberOfTuples(Size);
+//	Density->SetNumberOfTuples(Size);
 	Density->InsertTuples(0,Size,0,sGrid->GetPointData()->GetAbstractArray(0));
 
 
